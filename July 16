@@ -1,0 +1,4 @@
+def singlenumber(nums):
+    return 2 * sum(set(nums))-sum(nums)
+a=[2, 2,4,3,4]
+print(int(singlenumber(a)))
